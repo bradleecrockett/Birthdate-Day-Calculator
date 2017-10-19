@@ -15,7 +15,9 @@ Write a function called `main()` that:
 
 ### Rubric
 Style - code format, whitespace and PEP-8 style is followed making code easy to read.
+
 Comments - blocks of code are well commented.  Every function has a descriptive comment.
+
 Tests - The program runs as described in the specifications without errors(passes all tests).
 
 ### Zeller’s Algorithm

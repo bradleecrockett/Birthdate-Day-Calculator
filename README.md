@@ -13,6 +13,11 @@ Write a function called `main()` that:
 * Then uses the reponses from the user and your `zeller_function(month: int, day: int, year:int )` function to calculate the day of the week the user was born on.
 * Finally prints: "You were born on a *Monday*
 
+### Rubric
+Style - code format, whitespace and PEP-8 style is followed making code easy to read.
+Comments - blocks of code are well commented.  Every function has a descriptive comment.
+Tests - The program runs as described in the specifications without errors(passes all tests).
+
 ### Zeller’s Algorithm
 -----
 Zeller’s Algorithm is a way to calculate what day of the week a given date was.

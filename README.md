@@ -30,7 +30,7 @@ year = Y
 
 If M is 1 or 2, add 12 to M, and subtract 1 from Y.
 
-Let C be the first two digits of Y and K be the last two digits of Y.
+Let C be the first two digits of Y and let K be the last two digits of Y.
 
 Add together the integer parts of (2.6M—5.39), (K/4) and (C/4). 
 

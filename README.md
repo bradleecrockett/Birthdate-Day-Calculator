@@ -5,13 +5,13 @@ Do you know on what day of the week you were born?  Today you will write a progr
 -----
 Use the algorithm to calculate the day of the week on which you were born.
 
-Write a function in Python named `zeller_function(month: int, day: int, year:int )` that: 
+Write a function in Python named `zeller_function(month: int, day: int, year:int)` that: 
 * Calculates and returns the appropriate day of the week that you were born on as a String.
 
 Write a function called `main()` that:
 * Asks the user for their birth month, day, and year.
-* Then uses the reponses from the user and your `zeller_function(month: int, day: int, year:int )` function to calculate the day of the week the user was born on.
-* Finally prints: "You were born on a *Monday*
+* Then uses the reponses from the user and your `zeller_function(month: int, day: int, year:int)` function to calculate the day of the week the user was born on.
+* Finally prints: "You were born on a *Monday*"
 
 ### Rubric
 Style - code format, whitespace and PEP-8 style is followed making code easy to read.

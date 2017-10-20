@@ -28,6 +28,7 @@ Tests - The program runs as described in the specifications without errors(passe
 ### Zeller’s Algorithm
 -----
 Zeller’s Algorithm is a way to calculate what day of the week a given date was.
+
   EXAMPLE: zeller_function(10,20,2017) --> "Friday"
 
 Let month number = M

@@ -28,6 +28,7 @@ Tests - The program runs as described in the specifications without errors(passe
 ### Zeller’s Algorithm
 -----
 Zeller’s Algorithm is a way to calculate what day of the week a given date was.
+  EXAMPLE: zeller_function(10,20,2017) --> "Friday"
 
 Let month number = M
 day number = D
@@ -63,7 +64,7 @@ K = 91
 
 (C/4) = 4.75 = 4
 
-7 + 22 + 4 + 15 + 91—38 = 101
+(2.6M—5.39) + (K/4) + (C/4) + K + 2(C) = 7 + 22 + 4 + 15 + 91—38 = 101
 
 101 ÷ 7 = 14 r 3
 

@@ -1,7 +1,7 @@
 # Name: First Last
 # Date:
 # Period:
-# Lab: BdayCalcComplete.py
+# Lab: BdayCalc.py
 # Description: Uses Zeller's function to convert a birth date (Month, Day, Year)
 #     into the day of the week that the person was born.
 #

@@ -1,7 +1,6 @@
 from unittest import TestCase
 
 class TestZeller_function(TestCase):
-    pass
 
     def test_zeller_function(self):
         from BdayCalc import zeller_function
@@ -12,3 +11,6 @@ class TestZeller_function(TestCase):
         self.assertEqual(zeller_function(12, 31, 1999), "Friday")
         self.assertEqual(zeller_function(1, 1, 2000), "Saturday")
 
+# Run the tests
+if __name__ == '__main__':
+    unittest.main()

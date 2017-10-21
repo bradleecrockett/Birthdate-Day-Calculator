@@ -38,4 +38,4 @@ def zeller_function(month: int, day: int, year: int):
     return "Day of the Week"
 
 
-main()
+#main()

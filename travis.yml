@@ -1,0 +1,7 @@
+labguage: python
+python:
+  - "3.5"
+  - "3.6"
+cache: pip
+install: "pip install python -r reuirements.txt"
+script: python test_zeller_function.py

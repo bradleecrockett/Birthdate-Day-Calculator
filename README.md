@@ -66,7 +66,7 @@ Remainder is 3, so May 15, 1991 was a Wednesday.
 
 ## Tests
 
-function call                   return value
+  function call               return value
 
 zeller_function(3, 10, 1984) -> "Saturday"
 

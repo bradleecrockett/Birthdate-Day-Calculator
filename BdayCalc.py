@@ -35,7 +35,7 @@ def zeller_function(month: int, day: int, year: int):
     '''Converts a date to a corresponding day of the week using Zeller's function'''
     # Define the Zeller function below
 
-    return "Day of the Week"
+    return "Someday"
 
 
 #main()

@@ -8,9 +8,9 @@ Use the Zeller's function algorithm to calculate the day of the week on which yo
 Name your Python file BdayCalc.py (or download the starter file from this repo)
 
 Write a function in Python named `zeller_function(month: int, day: int, year:int)` that: 
-* Calculates and returns the appropriate day of the week that you were born on as a String.
+* returns the appropriate day of the week that you were born on as a String.
 
-Write a function called `main()` that:
+Write a function called `main()` that you can use to test your function:
 * Asks the user for their birth month, day, and year.
 * Then uses the reponses from the user and your `zeller_function(month: int, day: int, year:int)` function to calculate the day of the week the user was born on.
 * Finally prints: "You were born on a *Monday*"
@@ -71,4 +71,18 @@ integer part of(2.6M—5.39) + integer part of(K/4) + integer part of(C/4) + D +
 
 Remainder is 3, so May 15, 1991 was a Wednesday.
 
+## Tests
 
+    function call                 return value
+
+zeller_function(3, 10, 1984)  -> "Saturday"
+
+zeller_function(10, 19, 2017) -> "Thursday"
+
+zeller_function(10, 20, 2017) -> "Friday"
+
+zeller_function(7, 4, 1792)   -> "Wednesday"
+
+zeller_function(12, 31, 1999) -> "Friday"
+
+zeller_function(1, 1, 2000)   -> "Saturday"

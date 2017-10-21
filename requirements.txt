@@ -1,0 +1,5 @@
+#Dev
+# Add any libraries that must be installed (e.g. pyperclip or pygame)
+# pyinstaller
+# pygame
+# kivy

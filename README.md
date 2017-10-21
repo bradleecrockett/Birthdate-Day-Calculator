@@ -6,12 +6,12 @@ Do you know on what day of the week you were born?  Today you will write a progr
 Use the algorithm to calculate the day of the week on which you were born.
 
 Write a function in Python named `zeller_function(month: int, day: int, year:int)` that: 
-* Calculates and returns the appropriate day of the week that you were born on as a String.
+* returns the appropriate day of the week that you were born on as a String.
 
-Write a function called `main()` that:
+Write a function called `main()` that you can use it to test your function:
 * Asks the user for their birth month, day, and year.
-* Then uses the reponses from the user and your `zeller_function(month: int, day: int, year:int)` function to calculate the day of the week the user was born on.
-* Finally prints: "You were born on a *Monday*"
+* Then uses the responses from the user and your `zeller_function(month: int, day: int, year:int)` function to calculate the day of the week the user was born on.
+* prints: "You were born on a " + zeller_function(month, day, year)
 
 ### Rubric
 Style - code format, whitespace and PEP-8 style is followed making code easy to read.
@@ -58,10 +58,23 @@ K = 91
 
 (C/4) = 4.75 = 4
 
-7 + 22 + 4 + 15 + 91—38 = 101
+integer part of(2.6M—5.39) + integer part of(K/4) + integer part of(C/4) + D + K - (2C) = 7 + 22 + 4 + 15 + 91 — 38 = 101
 
 101 ÷ 7 = 14 r 3
 
 Remainder is 3, so May 15, 1991 was a Wednesday.
 
+## Tests
 
+function call                   return value
+zeller_function(3, 10, 1984) -> "Saturday"
+
+zeller_function(10, 19, 2017) -> "Thursday"
+
+zeller_function(10, 20, 2017) -> "Friday"
+
+zeller_function(7, 4, 1792) -> "Wednesday"
+
+zeller_function(12, 31, 1999) -> "Friday"
+
+zeller_function(1, 1, 2000) -> "Saturday"

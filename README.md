@@ -66,16 +66,11 @@ Remainder is 3, so May 15, 1991 was a Wednesday.
 
 ## Tests
 
-  function call               return value
-
-zeller_function(3, 10, 1984) -> "Saturday"
-
-zeller_function(10, 19, 2017) -> "Thursday"
-
-zeller_function(10, 20, 2017) -> "Friday"
-
-zeller_function(7, 4, 1792) -> "Wednesday"
-
-zeller_function(12, 31, 1999) -> "Friday"
-
-zeller_function(1, 1, 2000) -> "Saturday"
+function call | return value
+--- | --- 
+zeller_function(3, 10, 1984) | "Saturday"
+zeller_function(10, 19, 2017) | "Thursday"
+zeller_function(10, 20, 2017) | "Friday"
+zeller_function(7, 4, 1792) | "Wednesday"
+zeller_function(12, 31, 1999) | "Friday"
+zeller_function(1, 1, 2000) | "Saturday"

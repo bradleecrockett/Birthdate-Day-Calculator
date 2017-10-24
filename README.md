@@ -20,6 +20,17 @@ Comments - blocks of code are well commented.  Every function has a descriptive 
 
 Tests - The program runs as described in the specifications without errors(passes all tests).
 
+## Tests
+
+function call | return value
+--- | --- 
+zeller_function(3, 10, 1984) | "Saturday"
+zeller_function(10, 19, 2017) | "Thursday"
+zeller_function(10, 20, 2017) | "Friday"
+zeller_function(7, 4, 1792) | "Wednesday"
+zeller_function(12, 31, 1999) | "Friday"
+zeller_function(1, 1, 2000) | "Saturday"
+
 ### Zeller’s Algorithm
 -----
 Zeller’s Algorithm is a way to calculate what day of the week a given date was.
@@ -40,7 +51,7 @@ Find the remainder when this number is divided by 7.
 
 If this remainder is 0 the day is Sunday, 1 is Monday, 2 is Tuesday, etc.
 
-### Example: May 15, 1991
+### Sample caculations for algorithm. Example: May 15, 1991
 -----
 M = 5
 
@@ -64,13 +75,4 @@ integer part of(2.6M—5.39) + integer part of(K/4) + integer part of(C/4) + D +
 
 Remainder is 3, so May 15, 1991 was a Wednesday.
 
-## Tests
 
-function call | return value
---- | --- 
-zeller_function(3, 10, 1984) | "Saturday"
-zeller_function(10, 19, 2017) | "Thursday"
-zeller_function(10, 20, 2017) | "Friday"
-zeller_function(7, 4, 1792) | "Wednesday"
-zeller_function(12, 31, 1999) | "Friday"
-zeller_function(1, 1, 2000) | "Saturday"

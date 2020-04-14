@@ -31,11 +31,12 @@ def main():
     # Print the result above in the format: "You were born on a Monday!"
 
 
-def zeller_function(month: int, day: int, year: int):
+def zeller_function(month, day, year):
     '''Converts a date to a corresponding day of the week using Zeller's function'''
     # Define the Zeller function below
 
     return "Day of the Week"
 
 
-#main()
+if __name__ == "__main__":
+    main()

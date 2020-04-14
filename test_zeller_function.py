@@ -4,7 +4,7 @@ from unittest import TestCase
 class TestZeller_function(TestCase):
 
     def test_zeller_function(self):
-        from BdayCalcComplete import zeller_function
+        from BdayCalc import zeller_function
         self.assertEqual(zeller_function(3, 10, 1984), "Saturday")
         self.assertEqual(zeller_function(10, 19, 2017), "Thursday")
         self.assertEqual(zeller_function(10, 20, 2017), "Friday")
